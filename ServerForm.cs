@@ -164,9 +164,6 @@ namespace Sockets1_ServerSide_AustinK
         {
             try
             {
-                //**how can I do this better? I feel like this is just a rough disconnect?
-               // _listenSoc.Shutdown(SocketShutdown.Both); 
-
                 _listenSoc.Close();
                 _listenSoc = null;  //listener is a null reference
                 //update status to show that the listener is off
