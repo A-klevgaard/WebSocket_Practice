@@ -17,7 +17,6 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Sockets1_ClientSide_AustinK
 {
-    //public delegate void delVoidSocket(Socket soc); //delegate to pass a socket
     public delegate void delVoidVoid();             //delegate to perform a void action
     public partial class ClientSocConnect : Form
     {
