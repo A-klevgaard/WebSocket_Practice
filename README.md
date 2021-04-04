@@ -7,4 +7,4 @@ The server side randomly chooses a number between 1 - 1000 inclusive as the "sec
 if the number they guess is too high, too low, or correct. If a correct guess is sent then the server automatically chooses 
 a new secret number and the game begins again. 
 
-Each wrong secret guess will adjust the limits of the numerical trackbar to help the client hone in on the correct secret number.
+Each wrong guess will adjust the limits of the numerical trackbar to help the client hone in on the correct secret number.
