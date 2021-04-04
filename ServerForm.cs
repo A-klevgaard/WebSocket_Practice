@@ -1,5 +1,5 @@
 ﻿//Author: Austin Klevgaard
-// 1202_CMPE2800_OTH_NGS
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
