@@ -17,13 +17,13 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Sockets1_ClientSide_AustinK
 {
+    //public delegate void delVoidSocket(Socket soc); //delegate to pass a socket **redundant now that form is modal
     public delegate void delVoidVoid();             //delegate to perform a void action
     public partial class ClientSocConnect : Form
     {
         private Socket _cSoc = null;            //socket that is to be connected 
         private int port = 1666;                //the prot we expect to use
         private string address = "localhost";   //address to connect to
-        //private string address = "bits.net.nait.ca";
         //public delVoidSocket socConnect = null; //delegate to pass out a connected socket **redundant now that form is modal
         //public delVoidVoid formExit;            //void delegate to close the form **redundant now that form is modal
         public Socket Socket    //returns the connected socket
